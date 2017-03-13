@@ -9,15 +9,19 @@ const Home = (props) => (
   <div>
 
     <h2 className={css(styles.header)}>Details</h2>
-    <p className={css(styles.lead)}>
-      DigitalOcean Droplet: yakketyServ; StaticIP: 45.55.100.155; Port: 80; DNS: AWS Route53; Domains: nvizn.io & nvizn.org
-    </p>
+    <ul className={css(styles.lead)}>
+      <li className={css(styles.lead)}><b>StaticIP:</b> 45.55.100.155</li>
+      <li className={css(styles.lead)}><b>Port:</b> 80</li>
+      <li className={css(styles.lead)}><b>DNS:</b> AWS Route53</li>
+      <li className={css(styles.lead)}><b>Domains:</b> nvizn.io, nvizn.org</li>
+      <li className={css(styles.lead)}><b>DigitalOcean Droplet:</b> yakketyServ</li>
+      <li className={css(styles.lead)}><b>Author:</b> Evan Reed</li>
+    </ul>
     <h2 className={css(styles.header)}>About</h2>
     <p className={css(styles.lead)}>
-      The file size of isomorphic React apps can quickly get out of hand. Many isomorphic starter kits look awesome to begin with but yield a several megabyte javascript
-      file for the client to download. This project aims to demonstrate some possible solutions.
+      This project uses all the latest buzzwords... First off, it's an isomorphic <em>React</em> app bundled using <em>Webpack</em> which gives it a speedy load time independent of the client. The app also uses both <em>Redux</em> and <em>React Router</em> to allow a great UX. The remaining libraries used in this project are listed below.
     </p>
-    <h2 className={css(styles.header)}>Under the Hood</h2>
+    <h2 className={css(styles.header)}>JavaScript Technologies</h2>
     <ul className={css(styles.list)}>
       {data.map((item, i) => (
         <li key={i}>
