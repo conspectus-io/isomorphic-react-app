@@ -10,7 +10,7 @@ const Home = (props) => (
 
     <h2 className={css(styles.header)}>Details</h2>
     <ul className={css(styles.lead)}>
-      <li className={css(styles.lead)}><b>StaticIP:</b> 45.55.100.155</li>
+      <li className={css(styles.lead)}><b>StaticIP:</b> 138.197.48.135</li>
       <li className={css(styles.lead)}><b>Port:</b> 80</li>
       <li className={css(styles.lead)}><b>DNS:</b> AWS Route53</li>
       <li className={css(styles.lead)}><b>Domains:</b> nvizn.io, nvizn.org</li>
