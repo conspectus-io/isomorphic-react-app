@@ -1,6 +1,6 @@
 {
 	"apps": [{
-		"name": "main",
+		"name": "isomorphic-react-main",
 		"script": "./build/server.js",
 		"watch": true,
 		"env": {
