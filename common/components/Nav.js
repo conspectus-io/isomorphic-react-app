@@ -18,7 +18,7 @@ const Nav = () => ( <
     a href = 'https://github.com/conspectus-io/isomorphic-react-app'
     className = { css(styles.link) }
     target = '_blank' > GitHub < /a> <
-    a href = 'https://twitter.com/vizupedia'
+    a href = 'https://twitter.com'
     className = { css(styles.link) }
     target = '_blank' > Twitter < /a> < /
     div >
