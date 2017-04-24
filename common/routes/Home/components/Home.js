@@ -7,6 +7,10 @@ import data from '../data'
 // and maintain DRY
 const Home = (props) => (
   <div>
+    <h2 className={css(styles.header)}>About</h2>
+    <p className={css(styles.lead)}>
+      This project tries to implement some of the latest buzzwords (go figure) and provide a consistent enviroment for all kinds of testing... Currently, the project only consists of this homepage, and a sample newsfeed page linked above. The "application" is isomorphic and uses <em>React</em> bundled with <em>Webpack</em> which gives it a speedy load time independent of the client. The app also uses both <em>Redux</em> and <em>React Router</em> to provide a decent user experience. The remaining libraries used in this project are listed below.
+    </p>
 
     <h2 className={css(styles.header)}>Details</h2>
     <ul className={css(styles.lead)}>
@@ -17,10 +21,7 @@ const Home = (props) => (
       <li className={css(styles.lead)}><b>DigitalOcean Droplet:</b> yakketyServ</li>
       <li className={css(styles.lead)}><b>Author:</b> Evan Reed</li>
     </ul>
-    <h2 className={css(styles.header)}>About</h2>
-    <p className={css(styles.lead)}>
-      This project uses all the latest buzzwords... First off, it's an isomorphic <em>React</em> app bundled using <em>Webpack</em> which gives it a speedy load time independent of the client. The app also uses both <em>Redux</em> and <em>React Router</em> to allow a great UX. The remaining libraries used in this project are listed below.
-    </p>
+    
     <h2 className={css(styles.header)}>JavaScript Technologies</h2>
     <ul className={css(styles.list)}>
       {data.map((item, i) => (
