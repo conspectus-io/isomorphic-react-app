@@ -9,7 +9,7 @@ const Home = (props) => (
   <div>
     <h2 className={css(styles.header)}>About</h2>
     <p className={css(styles.lead)}>
-      This project tries to implement some of the latest buzzwords (go figure) and provide a consistent enviroment for all kinds of testing... Currently, the project only consists of this homepage, and a sample newsfeed page linked above. The "application" is isomorphic and uses <em>React</em> bundled with <em>Webpack</em> which gives it a speedy load time independent of the client. The app also uses both <em>Redux</em> and <em>React Router</em> to provide a decent user experience. The remaining libraries used in this project are listed below.
+      This project tries to implement some of the latest buzzwords (go figure) and provides a consistent enviroment for all kinds of testing... Currently, the project only consists of this homepage, and a sample newsfeed page linked above. The "application" is isomorphic and uses <em>React</em> bundled with <em>Webpack</em> which gives it a speedy load time independent of the client. The app also uses both <em>Redux</em> and <em>React Router</em> to provide a decent user experience. The remaining libraries used in this project are listed below.
     </p>
 
     <h2 className={css(styles.header)}>Details</h2>
